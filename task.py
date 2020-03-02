@@ -4,3 +4,9 @@ def firstrun():
 
 def area(radius):
     return radius * radius * 3.14
+
+
+def firstLastList(listA):
+    first = listA[0]
+    last = listA[len(listA)]
+    return (first, last)
