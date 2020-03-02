@@ -17,7 +17,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected, task.area(1))
 
     def test4(self):
-        listA = [1,2,3,4]
+        listA = [1, 2, 3, 4]
         self.assertEqual((1, 4), task.firstLastList(listA))
 
 
