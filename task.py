@@ -8,5 +8,5 @@ def area(radius):
 
 def firstLastList(listA):
     first = listA[0]
-    last = listA[len(listA-1)]
+    last = listA[len(listA)-1]
     return (first, last)
