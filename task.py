@@ -13,13 +13,13 @@ def firstLastList(listA):
 
 
 def date(dateA, dateB):
-    a1 = dateA.find('/') +1
+    a1 = dateA.find('/') + 1
     listA = dateA[a1:]
     b1 = listA.find('/')
     listA1 = listA[:b1]
     numA = int(listA1)
 
-    a2 = dateB.find('/') +1
+    a2 = dateB.find('/') + 1
     listB = dateB[a2:]
     b2 = listA.find('/')
     listB1 = listB[:b2]
@@ -28,4 +28,3 @@ def date(dateA, dateB):
     temp = numA - numB
     numC = abs(temp)
     return numC
-
